@@ -159,6 +159,7 @@ class DatasetInfo:
             self.use_warped_depth_range.append(warped)
 
         # read in dataset specific .json
+        # print(f'This directory is:', os.getcwd())
         with open(os.path.join(self.dataset_path, "dataset_info.json"), "r") as f:
             dataset_info = json.load(f)
         self.view.view_cell_center = dataset_info["view_cell_center"]

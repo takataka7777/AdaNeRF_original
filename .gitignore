@@ -1,0 +1,12 @@
+
+log*
+
+adanerf_real_time_viewer*
+
+data*
+
+pregenerated_tensor.pkl
+
+*.sh.*
+
+*__pycache__
